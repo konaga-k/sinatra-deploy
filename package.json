@@ -1,0 +1,6 @@
+{
+  "name": "sinatra-lesson-memo",
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  }
+}

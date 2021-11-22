@@ -13,7 +13,7 @@ get '/memos/new' do
   erb :new
 end
 
-post '/memos' do/home/konaga/environment/fjord/sinatra-lesson-memo
+post '/memos' do
   memo = Memo.new(title: params[:title], content: params[:content])
   memo.save
 
